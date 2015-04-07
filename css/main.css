@@ -20,6 +20,7 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 4em;
+    text-align: center;
 }
 
 h2 {
@@ -62,6 +63,17 @@ a {
     color: #5E5E5E;
 }
 
+#wrapper {
+    background: #FFFFFF url(../img/img05.jpg) repeat;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#header {
+    text-align: center;
+}
+
 .meta {
     text-transform: uppercase;
 }
@@ -89,5 +101,3 @@ ul.skills li{
 aside .description {
     font-style: italic;
 }
-
-
