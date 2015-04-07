@@ -47,7 +47,15 @@ ul, ol {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
-    padding-left: 20px;
+    padding-left: 10px;
+}
+
+#content ul li {
+    background: url(../img/bullet.png) no-repeat 7px 7px transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 1px 24px;
+    vertical-align: middle;
 }
 
 a {
@@ -69,10 +77,13 @@ aside ul {
     padding: 0;
 }
 
-aside ul.skills {
+ul.skills li{
     font-size: 1.6em;
-    list-style-type: disc ;
-    padding-left: 30px;
+    background: url(../img/bullet.png) no-repeat 7px 12px transparent;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 1px 24px;
+    vertical-align: middle;
 }
 
 aside .description {
