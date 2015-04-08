@@ -55,6 +55,7 @@ a {
     color: #5E5E5E;
 }
 
+
 #content ul li {
     background: url(../img/bullet.png) no-repeat 7px 7px transparent;
     list-style-type: none;
@@ -64,10 +65,17 @@ a {
 }
 
 #wrapper {
-    background: #FFFFFF url(../img/img05.jpg) repeat;
+    background: #FFFFFF;
     max-width: 1000px;
     margin: 0 auto;
     padding: 30px;
+}
+
+.section {
+    max-width: 1000px;
+    z-index: 10;
+    position: relative;
+    margin: 0 auto;
 }
 
 #header {
@@ -90,10 +98,6 @@ a {
 }
 
 /* Menu */
-
-.menu {
-
-}
 
 .menu {
     height: 50px;
@@ -160,7 +164,10 @@ a {
     margin: 0 auto;
 }
 
+.fxd {
+    max-width: 100%;
 
+}
 
 .meta {
     text-transform: uppercase;
