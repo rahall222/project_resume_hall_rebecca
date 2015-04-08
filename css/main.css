@@ -51,16 +51,16 @@ ul, ol {
     padding-left: 10px;
 }
 
+a {
+    color: #5E5E5E;
+}
+
 #content ul li {
     background: url(../img/bullet.png) no-repeat 7px 7px transparent;
     list-style-type: none;
     margin: 0;
     padding: 0px 0px 1px 24px;
     vertical-align: middle;
-}
-
-a {
-    color: #5E5E5E;
 }
 
 #wrapper {
@@ -81,7 +81,6 @@ a {
     min-height: 50px;
     padding:30px 0;
     font-size: 18px;
-    font-weight: 300;
 }
 
 .inner:after {
@@ -128,6 +127,7 @@ a {
 
 .menu a {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: .87em;
     display: block;
     line-height: 35px;
