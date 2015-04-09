@@ -19,8 +19,11 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 2em;
     text-align: center;
+    color: #d4363b;
+    background: url(../img/bg_h1.png) center no-repeat;
+    padding: 50px 0;
 }
 
 h2 {
@@ -30,7 +33,7 @@ h2 {
 
 h3 {
     font-size: 1.6em;
-    color: red;
+    color: #e0393e;
     margin: 30px 0 0;
     padding: 0;
 }
@@ -75,7 +78,13 @@ a {
 }
 
 #header {
+    margin: 0;
+    padding: 0 0 50px;
     text-align: center;
+}
+
+#header img {
+    width: 20%;
 }
 
 .inner {
@@ -83,7 +92,6 @@ a {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
-    min-height: 50px;
     padding:30px 0 50px;
     font-size: 18px;
 }
@@ -96,12 +104,11 @@ a {
 
 /* MENU */
 .menu {
-    height: 50px;
     z-index: 1000;
     width: 100%;
     background: #d4363b;
     margin: 0 auto;
-    padding: 0;
+    padding: 10px 0;
 }
 
 .menu ul {
@@ -128,14 +135,14 @@ a {
     font-weight: 300;
     font-size: .8em;
     display: block;
-    line-height: 35px;
+    line-height: 30px;
     text-decoration: none;
     text-align: center;
     text-shadow: -1px 1px 0px rgba(0,0,0,.2);
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #ffbdbf;
-    border: none;
+    outline: none;
 }
 
 .menu a:hover, #menu .current_page_item a {
@@ -157,6 +164,10 @@ a {
     max-width: 100%;
 }
 
+.menu a.active {
+    border-bottom: 2px solid #ffbdbf;
+}
+
 /* SECTIONS */
 #content ul li {
     background: url(../img/bullet.png) no-repeat 7px 7px transparent;
@@ -176,6 +187,10 @@ a {
     font-style: italic;
 }
 
+#references {
+    color: #d4363b;
+}
+
 aside ul {
     list-style-type: none;
     margin: 0;
@@ -190,7 +205,7 @@ aside .description {
     min-height: 130px;
     background:#fff;
     color:#3d3d3d;
-    padding: 50px 0;
+    padding: 0;
     height: 300px;
 }
 
@@ -256,6 +271,14 @@ aside .description {
 }
 
 @media (min-width: 500px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    #header img {
+        width: auto;
+    }
+
     .s2 ul li {
         display: inline-block;
         width: 43%;
@@ -266,29 +289,24 @@ aside .description {
     .s3 ul li {
         width: 31%;
     }
+
 }
 
 @media (min-width: 580px) {
     .menu {
-        padding: 20px 0 0;
+        padding: 15px 0;
     }
 
     .menu li {
-        padding: 0 1%;
         margin: 0 1%;
     }
 
     .menu a {
         font-size: .87em;
-        line-height: 35px;
     }
 }
 
 @media (min-width: 830px) {
-    h1 {
-        font-size: 4em;
-    }
-
     h2 {
         font-size: 3em;
         margin: 60px 0 40px;

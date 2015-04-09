@@ -1,5 +1,12 @@
 $(document).ready( function() {
 
+//BACKSTRETCH
+
+	$("#header").backstretch("img/bg_cloud.jpg", {
+		speed: 500
+	});
+
+
 //SKILL DIALS
 
                 $(".knob").knob({
@@ -55,7 +62,7 @@ $(document).ready( function() {
 
 //MENU SCROLL
 
-    $('.menu').smint({
-    	'scrollSpeed' : 1000
-    });
+	$('.menu').smint({
+		'scrollSpeed' : 1000
+	});
 });
