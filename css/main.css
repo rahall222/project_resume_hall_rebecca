@@ -22,8 +22,7 @@ h1 {
     font-size: 2em;
     text-align: center;
     color: #d4363b;
-    background: url(../img/bg_h1.png) center no-repeat;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 h2 {
@@ -265,12 +264,11 @@ aside .description {
 .s3 ul li {
     font-size: 1.0em;
     width: 48%;
+    margin: 0;
     display: inline-block;
-    background: url(../img/bullet_pink.png) no-repeat 7px 17px transparent;
     background: none;
     list-style-type: none;
-    margin: 0;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 /* INTERESTS */
@@ -283,6 +281,8 @@ aside .description {
 @media (min-width: 500px) {
     h1 {
         font-size: 4em;
+        padding: 50px 0;
+        background: url(../img/bg_h1.png) center no-repeat;
     }
 
     #header img {
