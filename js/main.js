@@ -6,6 +6,10 @@ $(document).ready( function() {
 		speed: 500
 	});
 
+	$(".s4").backstretch("img/bg_funheader.jpg", {
+		speed: 500
+	});
+
 
 //SKILL DIALS
 
