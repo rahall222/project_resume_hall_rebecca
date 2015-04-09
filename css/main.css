@@ -101,7 +101,7 @@ a {
     width: 100%;
     background: #d4363b;
     margin: 0 auto;
-    padding: 20px 0 0;
+    padding: 0;
 }
 
 .menu ul {
@@ -113,13 +113,12 @@ a {
     list-style: none;
     line-height: normal;
     background-color: #d4363b;
-    border-top: 8px solid #d4363b;
 }
 
 .menu li {
     color: #ffffff;
     padding: 0 1%;
-    margin: 0 1%;
+    margin: 0;
     display: inline-block;
     background-color: #d4363b;
 }
@@ -127,7 +126,7 @@ a {
 .menu a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: .87em;
+    font-size: .8em;
     display: block;
     line-height: 35px;
     text-decoration: none;
@@ -195,6 +194,10 @@ aside .description {
     height: 300px;
 }
 
+.s1, .s2, .s3, .s4 {
+    min-height: 500px;
+}
+
 /* EXPERIENCE */
 .s1 {
     background:#fff;
@@ -227,6 +230,7 @@ aside .description {
 .s3 {
     background: #d4363b;
     color: #ffbdbf;
+    text-align: center;
 }
 
 .s3 h2 {
@@ -234,11 +238,13 @@ aside .description {
 }
 
 .s3 ul li {
-    font-size: 1.6em;
+    font-size: 1.0em;
+    width: 48%;
+    display: inline-block;
     background: url(../img/bullet_pink.png) no-repeat 7px 17px transparent;
+    background: none;
     list-style-type: none;
     margin: 0;
-    padding: 0px 0px 1px 24px;
     vertical-align: middle;
 }
 
@@ -255,6 +261,26 @@ aside .description {
         width: 43%;
         margin-right: 3%;
         vertical-align: top;
+    }
+
+    .s3 ul li {
+        width: 31%;
+    }
+}
+
+@media (min-width: 580px) {
+    .menu {
+        padding: 20px 0 0;
+    }
+
+    .menu li {
+        padding: 0 1%;
+        margin: 0 1%;
+    }
+
+    .menu a {
+        font-size: .87em;
+        line-height: 35px;
     }
 }
 
