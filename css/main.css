@@ -178,7 +178,6 @@ a.active {
 
 /* SECTIONS */
 #content ul li {
-    background: url(../img/bullet.png) no-repeat 7px 7px transparent;
     list-style-type: none;
     margin: 0;
     padding: 0px 0px 1px 24px;
@@ -223,8 +222,8 @@ aside .description {
 }
 
 /* EXPERIENCE */
-.s1 {
-    background:#fff;
+.s1 ul li {
+    background: #ffffff url(../img/bullet.png) no-repeat 7px 7px;
 }
 
 /* EDUCATION */
