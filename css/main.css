@@ -217,6 +217,11 @@ aside ul {
     padding: 0px 0px 1px 24px;
 }
 
+.s1 ul li a {
+    display: block;
+    padding-bottom: 5px;
+}
+
 /* EDUCATION */
 .s2 {
     background: #eee;
