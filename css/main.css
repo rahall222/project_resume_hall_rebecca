@@ -65,7 +65,6 @@ a {
 
 #wrapper {
     background: #FFFFFF;
-    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -84,6 +83,8 @@ a {
 
 #header img {
     width: 20%;
+    display: block;
+    margin: 0 auto 2%;
 }
 
 .inner {
@@ -193,7 +194,6 @@ a.active {
 }
 
 aside ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -204,10 +204,9 @@ aside .description {
 
 .sTop {
     min-height: 130px;
-    background:#fff;
-    color:#3d3d3d;
+    background: #ffffff;
+    color: #3d3d3d;
     padding: 0;
-    height: 300px;
 }
 
 .s1, .s2, .s3, .s4 {
