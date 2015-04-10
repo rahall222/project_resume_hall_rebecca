@@ -64,9 +64,16 @@ $(document).ready( function() {
                     }
                 });
 
+//TOOLTIPSTER
+
+    $('.tooltip').tooltipster();
+
 //MENU SCROLL
 
 	$('.menu').smint({
 		'scrollSpeed' : 1000
 	});
+
+
+
 });

@@ -7,10 +7,13 @@
     <meta name="description" content="Rebecca Hall's Online Resume">
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/tooltipster.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Amiri:400,400italic,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div id="wrapper" class="section sTop">
@@ -34,7 +37,7 @@
                         <a href="mailto:rahall@gmail.com" class="extLink end" target="_blank">
                             <img src="img/ico_email.png" alt="email icon" width="21"/>
                         </a>
-                        <a href="#" class="extLink end" target="_blank">
+                        <a href="#" class="extLink end tooltip" title="tel: 011.44.7955.555.555">
                             <img src="img/ico_phone.png" alt="phone icon" width="20"/>
                         </a>
                     </li>
@@ -54,8 +57,8 @@
                         <section class="description">
                             <p>— Responsibilities have included:</p>
                             <ul>
-                                <li>Controlling the redesign and content of numerous existing promotional  websites e.g. http://www.testbase.co.uk</li>
-                                <li>Designing the wireframes of new websites to meet strict branding  guidelines and building approved designs e.g. http://www.exampro.co.uk</li>
+                                <li>Controlling the redesign and content of numerous existing promotional  websites <a href="http://www.testbase.co.uk" target="_blank">http://www.testbase.co.uk</a></li>
+                                <li>Designing the wireframes of new websites to meet strict branding  guidelines and building approved designs <a href="http://www.exampro.co.uk" target="_blank">http://www.exampro.co.uk</a></li>
                                 <li>Upgrading the online application’s landing pages with responsive designs,   branded templates and dynamic page content to improve flexibility and   enhance user experience</li>
                                 <li>Working with back-end developers, database administrators, production  and marketing teams to improve functionality of all existing applications</li>
                                 <li>Orchestrating plans to build a content management system to improve the  flexibility of website and application content</li>
@@ -191,6 +194,8 @@
     </div><!-- end wrapper -->
 
     <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/jquery.tooltipster.min.js"></script>
+
     <script src="js/jquery.smint.js" ></script>
     <script src="js/jquery.knob.min.js"></script>
     <script src="js/jquery.backstretch.min.js"></script>

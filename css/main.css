@@ -273,9 +273,19 @@ aside .description {
 
 /* INTERESTS */
 .s4 {
-    color: #d4363b;
+    color: #ffbdbf;
     background: #ffbdbf;
-    height: 800px;
+    min-height: 600px;
+}
+
+.s4 h2 {
+    color: #ffbdbf;
+}
+
+.s4 p {
+    width: 50%;
+    font-size: 1.5em;
+    text-shadow: -1px 1px 0px rgba(0,0,0,.3);
 }
 
 @media (min-width: 500px) {
