@@ -51,6 +51,7 @@ ul, ol {
     margin-bottom: 0;
     margin-left: 0;
     padding-left: 10px;
+    list-style-type: none;
 }
 
 a {
@@ -177,13 +178,6 @@ a.active {
 }
 
 /* SECTIONS */
-#content ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0px 0px 1px 24px;
-    vertical-align: middle;
-}
-
 .meta {
     text-transform: uppercase;
     font-size: .87em;
@@ -223,13 +217,14 @@ aside .description {
 
 /* EXPERIENCE */
 .s1 ul li {
+    vertical-align: middle;
     background: #ffffff url(../img/bullet.png) no-repeat 7px 7px;
+    padding: 0px 0px 1px 24px;
 }
 
 /* EDUCATION */
 .s2 {
     background: #eee;
-    /*background: url(../img/bg_3d.png) repeat;*/
     text-align: center;
 }
 
